@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/rex/static/css/main.c76eb3a7.chunk.css",
-    "main.js": "/rex/static/js/main.98385b70.chunk.js",
-    "main.js.map": "/rex/static/js/main.98385b70.chunk.js.map",
-    "runtime-main.js": "/rex/static/js/runtime-main.9b2d3552.js",
-    "runtime-main.js.map": "/rex/static/js/runtime-main.9b2d3552.js.map",
-    "static/js/2.528db4df.chunk.js": "/rex/static/js/2.528db4df.chunk.js",
-    "static/js/2.528db4df.chunk.js.map": "/rex/static/js/2.528db4df.chunk.js.map",
-    "index.html": "/rex/index.html",
-    "precache-manifest.e4c35e045e854135cdbee8d36df82d15.js": "/rex/precache-manifest.e4c35e045e854135cdbee8d36df82d15.js",
-    "service-worker.js": "/rex/service-worker.js",
-    "static/css/main.c76eb3a7.chunk.css.map": "/rex/static/css/main.c76eb3a7.chunk.css.map",
-    "static/js/2.528db4df.chunk.js.LICENSE.txt": "/rex/static/js/2.528db4df.chunk.js.LICENSE.txt",
-    "static/media/face.jpg": "/rex/static/media/face.868a54c0.jpg",
-    "static/media/me.jpg": "/rex/static/media/me.5d558d94.jpg",
-    "static/media/rex_cv.pdf": "/rex/static/media/rex_cv.be5efb3b.pdf"
+    "main.css": "/static/css/main.c76eb3a7.chunk.css",
+    "main.js": "/static/js/main.0f6599ac.chunk.js",
+    "main.js.map": "/static/js/main.0f6599ac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1596a95b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1596a95b.js.map",
+    "static/js/2.09b8dd00.chunk.js": "/static/js/2.09b8dd00.chunk.js",
+    "static/js/2.09b8dd00.chunk.js.map": "/static/js/2.09b8dd00.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ae19c4941bf77b036ee8c105d3b67384.js": "/precache-manifest.ae19c4941bf77b036ee8c105d3b67384.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c76eb3a7.chunk.css.map": "/static/css/main.c76eb3a7.chunk.css.map",
+    "static/js/2.09b8dd00.chunk.js.LICENSE.txt": "/static/js/2.09b8dd00.chunk.js.LICENSE.txt",
+    "static/media/face.jpg": "/static/media/face.868a54c0.jpg",
+    "static/media/me.jpg": "/static/media/me.5d558d94.jpg",
+    "static/media/rex_cv.pdf": "/static/media/rex_cv.be5efb3b.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b2d3552.js",
-    "static/js/2.528db4df.chunk.js",
+    "static/js/runtime-main.1596a95b.js",
+    "static/js/2.09b8dd00.chunk.js",
     "static/css/main.c76eb3a7.chunk.css",
-    "static/js/main.98385b70.chunk.js"
+    "static/js/main.0f6599ac.chunk.js"
   ]
 }
