@@ -20,12 +20,13 @@ const rightVariants = {
 };
 
 
-const projects = [{title: 'Connect Four Solver', url: 'https://github.com/Rezxx/ConnectFour_Solver', desc: 'Offers a best move in a ConnectFour game using Alpha-Beta pruning MiniMax algo.'}
-             ,{title: 'Face Recognition', url: 'https://github.com/Rezxx/Face-Recognition', desc: 'Face recognition tool uses EigenFace and k-NN classifier'}
-             ,{title: 'Pool Game', url: 'https://github.com/Rezxx/PoolGame', desc:'Virtual pool game under Qt enviornment'}
-             ,{title: 'Bird', url: 'https://github.com/Rezxx/Bird', desc: 'Web music player based on Django and React'}
-             ,{title: 'Digger', url: 'https://bitbucket.org/Rex9611/info3600-bugchecker/src/master/', desc: 'Static analysis tool finding Java Null Pointer Exceptions based on Soufflé and Doop'}
-             ];
+const projects = [{title: 'Connect Four Solver', img: face, url: 'https://github.com/Rezxx/ConnectFour_Solver', desc: 'Offers a best move in a ConnectFour game using Alpha-Beta pruning MiniMax algo.'}
+             ,{title: 'Face Recognition', img: 'https://media.giphy.com/media/Kbwl4xM4ZhL1KD9RHd/giphy.gif', url: 'https://github.com/Rezxx/Face-Recognition', desc: 'Face recognition tool uses EigenFace and k-NN classifier'}
+             ,{title: 'Throw Balls',img: 'https://media.giphy.com/media/L0xUOFkNYvZysYkOOv/giphy.gif', url: 'https://github.com/Rezxx/Throw-Balls', desc:'A ball throwing game built using PyGame and OpenGL'}
+             ,{title: 'Pool Game', img: face, url: 'https://github.com/Rezxx/PoolGame', desc:'Virtual pool game under Qt enviornment'}
+             ,{title: 'Bird',img: 'https://media.giphy.com/media/cMEcAd8nS8UAQAdtLi/giphy.gif', url: 'https://github.com/Rezxx/Bird', desc: 'Web music player based on Django and React'}
+             ,{title: 'Digger',img: face, url: 'https://bitbucket.org/Rex9611/info3600-bugchecker/src/master/', desc: 'Static analysis tool finding Java Null Pointer Exceptions based on Soufflé and Doop'}
+             ,{title: 'ClearPay',img: face, url: '#', desc:'An Android App for splitting bill between users, supporting offline transactions via Bluetooth.'}];
 
 const Thumbnail = ({ project, i }) => {
   const odd = !(i & 1);
@@ -36,9 +37,9 @@ const Thumbnail = ({ project, i }) => {
     style={{overflow:'hidden'}}>
     <a href={project.url}>
       <motion.img
-        src={face}
+        src={project.img}
         alt="Place Holder"
-        whileHover={{scale: 1.2 }}
+        whileHover={{scale: 1.3 }}
         transition={transition}
       />
     </a>

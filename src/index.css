@@ -59,6 +59,7 @@ a:hover {
 	float: right;
 	top:1vh;
   right:1vw;
+  z-index:10;
 }
 
 button {
@@ -95,7 +96,7 @@ button {
 .line {
   position: relative;
   border-right: thin solid black;
-  left: 48%;
+  left: 49%;
   color:black;
   height:inherit;
 }
@@ -107,7 +108,7 @@ button {
   justify-content: center;
   align-items: center;
   height: 25vh;
-  width: 30vw;
+  width: 32vw;
 }
 
 .thumbnail img {
@@ -154,3 +155,17 @@ button {
   font-size: 20px;
   letter-spacing: 8px;
 }
+
+.normal {
+  display:inline;
+  color: white;
+}
+
+a.normal{
+  color: #4675d2;;
+}
+
+a.normal:hover{
+  color: #818380;
+}
+

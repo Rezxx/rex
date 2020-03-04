@@ -16,9 +16,11 @@ class About extends Component {
 		};
     	const content = props=><motion.div variants={variants}>
     		<div className="me"><img src={me} alt=""/></div>
-	    	I’m writing this cover letter to express my interests in the Graduate Software Developer position. I think it can be a great starting point of my career for all the opportunities and challenges for it can bring. <br/><br/>
-			I obtained my Bachelor of Computer Science(Advanced)(Honours) from University of Sydney in 2019.I have maintained an excellent academic record in my study with average score of 80+ and have achieved first class honours in my honour year, focusing on static code analysis. I have also had multiple group work occasions throughout the study, which taught me skills in leadership, communication, organisation and how to become a better group player. I was also the academic tutor at USYD in the past year teaching first year computer science subjects and it gave me some work experience along with one other research internship at Synopsys.<br/><br/>
-			With little room for more words here, I would appreciate an opportunity of interview.<br/><br/>
+    		Hey there, My name is Rex Shen and I am currently looking for a Graduate Developer position in Australia. <br/><br/>
+			I have recently graduated from <b>University of Sydney</b> with a <b>Bachelor of Computer Science and Technology(Advanced)(Honours)</b> degree(I know, it is a long title) in 2019. I am a person who enjoys solving problems and learning new skills or knowledges, and that's the reason why I persued the advanced stream to push myself taking more challenges and landed with an 80+ WAM. I have also obtained a <b>First Class Honour</b> from my degree as well with work focusing on Static Code Analysis.<br/><br/>
+			Apart from the coursework that I did in uni, I have also taken part in the teaching side of the classroom.  It has been more than one year since I started tutoring first-year Computer Science subject in USYD(<a className='normal' href='https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289822/vid/317314'>INFO1110</a> and <a className='normal' href='https://cusp.sydney.edu.au/students/view-unit-page/uos_id/289823/vid/318475'>INFO1113</a>). I have learnt more about teamwork, communication and organisation as well as a deeper understanding of Computer Science from this experience.<br/><br/>
+			I would like to thank you for visiting my site and give me a thumbs up if liked my profile ;)<br/>
+
     	</motion.div>;
 
 		return <motion.div animate="enter" exit="exit" 
