@@ -76,7 +76,7 @@ button {
 
 .content {
 	margin: 15vw 9vw 10vw 17vw;
-  overflow: hidden;
+  /*overflow: hidden;*/
   font-size: 14px;
   line-height:20px;
 
