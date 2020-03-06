@@ -14,8 +14,8 @@ const content = props=><motion.div style={{textAlign:'center', letterSpacing: 5,
     	</motion.div>;
 
 export default props => <motion.div animate="enter" exit="exit" 
-			variants={{exit: { transition: { staggerChildren: 0.3 }}, 
-            enter:{transition: { staggerChildren: 0.3 }}
+			variants={{exit: { transition: { staggerChildren: 0.2 }}, 
+            enter:{transition: { staggerChildren: 0.2 }}
           }}>
       <Layout {...Object.assign({}, props, {component:content})}/>
       </motion.div>;

@@ -23,15 +23,15 @@ const rightVariants = {
 };
 
 
-const projects = [{title: 'Connect Four Solver',stack:['Java'], img: face, url: 'https://github.com/Rezxx/ConnectFour_Solver', desc: 'Offers a best move in a ConnectFour game using Alpha-Beta pruning MiniMax algo.'}
+const projects = [{title: 'Connect Four Solver',stack:['Java'], img: 'https://media.giphy.com/media/kEclKX8mH3W2F317vD/giphy.gif', url: 'https://github.com/Rezxx/ConnectFour_Solver', desc: 'Offers a best move in a ConnectFour game using Alpha-Beta pruning MiniMax algo.'}
              ,{title: 'Face Recognition', stack:['Python', 'OpenCV'], img: 'https://media.giphy.com/media/Kbwl4xM4ZhL1KD9RHd/giphy.gif', url: 'https://github.com/Rezxx/Face-Recognition', desc: 'Face recognition tool uses EigenFace and k-NN classifier'}
              ,{title: 'Throw Balls', stack:['Python', 'PyGame', 'OpenGL'] ,img: 'https://media.giphy.com/media/L0xUOFkNYvZysYkOOv/giphy.gif', url: 'https://github.com/Rezxx/Throw-Balls', desc:'A ball throwing game built using PyGame and OpenGL'}
-             ,{title: 'Pool Game', stack:['C++', 'Qt'], img: face, url: 'https://github.com/Rezxx/PoolGame', desc:'Virtual pool game under Qt enviornment'}
+             ,{title: 'Pool Game', stack:['C++', 'Qt'], img: 'https://media.giphy.com/media/KFoELF8nz5am78xA9Y/giphy.gif', url: 'https://github.com/Rezxx/PoolGame', desc:'Virtual pool game under Qt enviornment'}
              ,{title: 'Bird', stack:['React.js', 'Django', 'REST'], img: 'https://media.giphy.com/media/cMEcAd8nS8UAQAdtLi/giphy.gif', url: 'https://github.com/Rezxx/Bird', desc: 'Web music player based on Django and React, syncing Spotify and Youtube account'}
              ,{title: 'Digger', stack:['Datalog'], img: face, url: 'https://bitbucket.org/Rex9611/info3600-bugchecker/src/master/', desc: 'Static analysis tool finding Java Null Pointer Exceptions based on Soufflé and Doop'}
              ,{title: 'ClearPay', stack:['Java', 'Android'], img: 'https://media.giphy.com/media/RNWZ0rqJOLdGfWXG3R/giphy.gif', url: '#', desc:'An Android App for splitting bills between users, supporting offline transactions via Bluetooth.'}];
 
-const colours = ["magenta", "red", "volcano", "orange", "gold", "lime", "green", "cyan", "blue", "geekblue", "purple", "processing"];
+const colours = ["cyan", "red", "purple", "orange", "gold", "lime", "green", "pink" , "blue", "geekblue", "volcano","yellow"];
 var stack = new Set();
 projects.forEach(p =>{
   p.stack.forEach(s =>{
@@ -95,8 +95,8 @@ class Project extends Component {
 		return <motion.div
 	        animate="enter"
 	        exit="exit"
-	        variants={{exit: { transition: { staggerChildren: 0.2 }}, 
-            enter:{transition: { staggerChildren: 0.2 }}
+	        variants={{exit: { transition: { staggerChildren: 0.1 }}, 
+            enter:{transition: { staggerChildren: 0.1 }}
           }}>
           <Layout {...this.props} component={Content}/>
       	</motion.div>
