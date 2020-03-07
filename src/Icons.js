@@ -15,7 +15,7 @@ const icons = [['icon-ziyuan','https://github.com/Rezxx'],
 export default props => 
 	<div className='icons'>
 		{icons.map(([icon, url]) => 
-			<motion.button key={icon}  whileHover={{ scale: 0.95 }} whileTap={{ scale: 0.9 }}>
-				<a href={url}><motion.div whileHover={{ scale: 1.2 , opacity:0.8}}><MyIcon key={icon} type={icon} /></ motion.div></a>
+			<motion.button key={icon}  whileHover={{ scale: 0.95 }} whileTap={{ scale: 0.8 }}>
+				<a href={url}><motion.div whileHover={{ scale: 1.2 , opacity:0.8}}><MyIcon key={icon} type={icon} /></motion.div></a>
 			</motion.button>)}
 	</div>
