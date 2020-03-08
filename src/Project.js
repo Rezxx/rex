@@ -40,7 +40,7 @@ projects.forEach(p =>{
 });
 
 var maps = {};
-[...stack].forEach((s, i) => {maps[s] = colours[i];console.log(s, i);});
+[...stack].forEach((s, i) => {maps[s] = colours[i];});
 
 const Thumbnail = ({ project, i }) => {
   const odd = !(i & 1);
