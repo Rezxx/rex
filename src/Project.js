@@ -27,7 +27,7 @@ const projects = [{title: 'Connect Four Solver',stack:['Java'], img: 'https://me
              ,{title: 'Face Recognition', stack:['Python', 'OpenCV'], img: 'https://media.giphy.com/media/Kbwl4xM4ZhL1KD9RHd/giphy.gif', url: 'https://github.com/Rezxx/Face-Recognition', desc: 'Face recognition tool uses EigenFace and k-NN classifier'}
              ,{title: 'Throw Balls', stack:['Python', 'PyGame', 'OpenGL'] ,img: 'https://media.giphy.com/media/L0xUOFkNYvZysYkOOv/giphy.gif', url: 'https://github.com/Rezxx/Throw-Balls', desc:'A ball throwing game built using PyGame and OpenGL'}
              ,{title: 'Pool Game', stack:['C++', 'Qt'], img: 'https://media.giphy.com/media/KFoELF8nz5am78xA9Y/giphy.gif', url: 'https://github.com/Rezxx/PoolGame', desc:'Virtual pool game under Qt enviornment'}
-             ,{title: 'Bird', stack:['React.js', 'Django', 'REST'], img: 'https://media.giphy.com/media/cMEcAd8nS8UAQAdtLi/giphy.gif', url: 'https://github.com/Rezxx/Bird', desc: 'Web music player based on Django and React, syncing Spotify and Youtube account'}
+             ,{title: 'Bird', stack:['React.js', 'Django', 'REST'], img: 'https://media.giphy.com/media/cMEcAd8nS8UAQAdtLi/giphy.gif', url: 'http://bird-host.s3-website.ap-southeast-2.amazonaws.com', desc: 'Web music player based on Django and React, syncing Spotify and Youtube account'}
              ,{title: 'Digger', stack:['Datalog'], img: face, url: 'https://bitbucket.org/Rex9611/info3600-bugchecker/src/master/', desc: 'Static analysis tool finding Java Null Pointer Exceptions based on Soufflé and Doop'}
              ,{title: 'ClearPay', stack:['Java', 'Android'], img: 'https://media.giphy.com/media/RNWZ0rqJOLdGfWXG3R/giphy.gif', url: '#', desc:'An Android App for splitting bills between users, supporting offline transactions via Bluetooth.'}];
 
@@ -58,7 +58,6 @@ const Thumbnail = ({ project, i }) => {
       />
     </a>
   </motion.div>;
-  console.log(project);
   const text = <div key='text' style={{padding:'0 20px', minWidth: '15vw', maxWidth: '15vw'}}>
       <div className='porject_name'>
         <a href={project.url}>{project.title}</a>
@@ -67,9 +66,11 @@ const Thumbnail = ({ project, i }) => {
       <div style={{lineHeight:'30px'}}><b>Stack:</b> {project.stack.map(stack => <Tag key={stack} color={maps[stack]}>{stack}</Tag>)}</div>
     </div>;
 
+  // const is_web = window.innerWidth > 720;
+  // style = {{display:  is_web ? 'flex' : 'block', height: is_web ? '25vh' : '50vh'}}
   return(
   <Grid item xs={odd ? 12 : 6}>
-    <motion.div variants={odd ? leftVariants : rightVariants} className="thumbnail">
+    <motion.div variants={odd ? leftVariants : rightVariants} className="thumbnail" >
      {odd ? [image,text] : [text,image]}
     </motion.div>
   </Grid>);
@@ -92,6 +93,7 @@ class Project extends Component {
 	}
 
 	render(){
+    // console.log(window.innerWidth);
 		return <motion.div
 	        animate="enter"
 	        exit="exit"
