@@ -2,12 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import ReactCanvasNest from 'react-canvas-nest';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <div>
-        <ReactCanvasNest/>
         <App />
     </div>, 
 document.getElementById('root'));

@@ -9,7 +9,7 @@ const variants = {exit: { x: [0, 100], opacity: [1, 0]},
 
 const content = props=><motion.div style={{textAlign:'center', letterSpacing: 5, margin: 50}} variants={variants}>
 			<Divider/>
-    		<div style={{margin:100}}><p className='head'>Email</p><br/> jshe9611@uni.sydney.edu.au</div>
+    		<div style={{margin:100}}><p className='head'>Email</p><br/> rex.j.shen@gmail.com</div>
     		<Divider/>
     	</motion.div>;
 

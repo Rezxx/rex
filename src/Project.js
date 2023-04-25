@@ -23,7 +23,8 @@ const rightVariants = {
 };
 
 
-const projects = [{title: 'Connect Four Solver',stack:['Java'], img: 'https://media.giphy.com/media/kEclKX8mH3W2F317vD/giphy.gif', url: 'https://github.com/Rezxx/ConnectFour_Solver', desc: 'Offers a best move in a ConnectFour game using Alpha-Beta pruning MiniMax algo.'}
+const projects = [{title: 'Cover Genius XPay',stack:['Laravel', 'Vue.js'], img: face, desc: 'Build and maintain a payment system that integrated with Stripe and Adyen'}
+             ,{title: 'Connect Four Solver',stack:['Java'], img: 'https://media.giphy.com/media/kEclKX8mH3W2F317vD/giphy.gif', url: 'https://github.com/Rezxx/ConnectFour_Solver', desc: 'Offers a best move in a ConnectFour game using Alpha-Beta pruning MiniMax algo.'}
              ,{title: 'Face Recognition', stack:['Python', 'OpenCV'], img: 'https://media.giphy.com/media/Kbwl4xM4ZhL1KD9RHd/giphy.gif', url: 'https://github.com/Rezxx/Face-Recognition', desc: 'Face recognition tool uses EigenFace and k-NN classifier'}
              ,{title: 'Throw Balls', stack:['Python', 'PyGame', 'OpenGL'] ,img: 'https://media.giphy.com/media/L0xUOFkNYvZysYkOOv/giphy.gif', url: 'https://github.com/Rezxx/Throw-Balls', desc:'A ball throwing game built using PyGame and OpenGL'}
              ,{title: 'Pool Game', stack:['C++', 'Qt'], img: 'https://media.giphy.com/media/KFoELF8nz5am78xA9Y/giphy.gif', url: 'https://github.com/Rezxx/PoolGame', desc:'Virtual pool game under Qt enviornment'}
